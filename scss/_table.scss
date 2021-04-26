@@ -1,0 +1,40 @@
+/* ------  Table settings ------ */
+.table {
+  & td {
+    border: none;
+    vertical-align: middle;
+  }
+  & th {
+    border: none;
+    vertical-align: middle;
+  }
+  & thead th {
+    border: none;
+  }
+}
+
+th {
+  font-weight: 400;
+  color: #6f7381;
+}
+
+td {
+  height: 79px;
+}
+
+.idVisible {
+  /* visibility: collapse; */
+  vertical-align: initial;
+}
+
+.folyamat .statusText {
+  margin-left: 3px;
+}
+
+.plusInfo {
+  display: none;
+}
+
+.plusInfoActive {
+  display: block;
+}

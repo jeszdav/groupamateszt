@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Noindex -->
+    <meta name="robots" content="noindex" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!-- Own CSS -->
+    <link rel="stylesheet" href="./scss/main.css" />
+    <title>Groupama Teszt</title>
+  </head>
+  <body>
+    <!-- Header start -->
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col headerBar">
+            <a class="logo" href="./index.html">
+              <img src="./img/logo.png" alt="logo" />
+            </a>
+            <div class="exitGroup">
+              <p class="exitDots"><a class="" href="#">...</a></p>
+              <a class="exit" href="#">
+                <img src="./img/exit.png" alt="kilépés" />
+                <span class="exitText">Kilépés</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header end -->
+    <!-- Main start -->
+    <main>
+      <div class="container">
+        <div class="row">
+          <!-- Életbiztosítás box start -->
+          <div class="col-3 eletbiztositasBox">
+            <div class="primaryTitle">
+              <h1>Folyamatos Díjfizetésű Ultra Prémium Életbiztosítás</h1>
+            </div>
+            <div class="customer">
+              <div class="customer__box">
+                <p>Szerződő neve</p>
+                <p>Kovács István</p>
+              </div>
+              <div class="customer__box">
+                <p>Szerződésszám</p>
+                <p>87562443</p>
+              </div>
+              <div class="customer__box">
+                <p>Utolsó befizetés</p>
+                <p>2019. 06. 25.</p>
+              </div>
+              <div class="customer__box">
+                <p>Biztosítási díj rendezve</p>
+                <p>2019. 07. 01.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Életbiztosítás box end -->
+          <div class="col-md-12 col-lg-9 paymentWrapper">
+            <!-- Paymentnav start -->
+            <nav class="paymentNav">
+              <div id="marker"></div>
+              <a href="#" class="navItem desktop">Fizetendő tételek</a>
+              <a href="#" class="navItem mobile">Fizetendő díjak</a>
+              <a href="#" class="navItem">Eseti díj befizetése</a>
+              <a href="#" class="navItem active">Fizetési előzmények</a>
+            </nav>
+            <!-- Paymentnav end -->
+
+            <!-- Payment Items start -->
+            <div class="paymentItemsWrapper">
+              <!-- Payment Head -->
+              <div class="paymentDataWrapper">
+                <div class="paymentDataHead">
+                  <p>Azonosító</p>
+                  <p>Befizetés módja</p>
+                  <p>Dátum</p>
+                  <p>Összeg</p>
+                  <p>Státusz</p>
+                </div>
+                <!-- Payment DataBox start -->
+                <div class="paymentDataBox">
+                  <div class="idGroup">
+                    <img
+                      class="idGroupArrow"
+                      src="./img/arrowright.png"
+                      alt="azonosító megjelenítése"
+                    />
+                    <p class="idGroupText">EPAYMT8</p>
+                  </div>
+                  <div class="idFull">EPAYMT8...</div>
+                  <p>Bankkártya</p>
+                  <p class="deadline">2019. 06. 25.</p>
+                  <p class="sum">5 000 Ft</p>
+                  <div class="statusGroup">
+                    <img
+                      src="./img/folyamatban.png"
+                      alt="folyamatban"
+                      class="statusGroupImg"
+                    />
+                    <p class="statusText">Folyamatban</p>
+                  </div>
+                  <div class="attachment">
+                    <img src="./img/attachment.png" alt="csatolmány" />
+                  </div>
+                  <div class="moreInformation">
+                    <a href="#">
+                      <img src="./img/arrowdown.png" alt="több információ" />
+                    </a>
+                  </div>
+                  <div class="moreInfoBox">
+                    <div class="moreInfoBox__1">
+                      <p>Biztosítási időszak</p>
+                      <p>2019. 06. 02 - 07. 01.</p>
+                    </div>
+                    <div class="moreInfoBox__2">
+                      <p>Díjelőírás</p>
+                      <p>5 000 Ft</p>
+                    </div>
+                    <div class="moreInfoBox__3">
+                      <p>Könyvelt díj</p>
+                      <p class="sum">5 000 Ft</p>
+                    </div>
+                  </div>
+                  <div class="moreInfoBoxAttachment">
+                    <div class="moreInfoBox__1">
+                      <p>Csatolmány</p>
+                      <div class="attachmentBox">
+                        <a href="#">
+                          <img
+                            src="./img/pdf.png"
+                            alt="fizetési nyugta letöltése"
+                          />
+                          <p>Fizetési nyugta letöltése</p>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- DataBox -->
+                <div class="paymentDataBox">
+                  <div class="idGroup">
+                    <img
+                      class="idGroupArrow"
+                      src="./img/arrowright.png"
+                      alt="azonosító megjelenítése"
+                    />
+                    <p class="idGroupText">EPAYMT8</p>
+                  </div>
+                  <p>Bankkártya</p>
+                  <p>2019. 06. 25.</p>
+                  <p class="sum">5 000 Ft</p>
+                  <div class="statusGroup">
+                    <img src="./img/beerkezett.png" alt="beérkezett" />
+                    <p class="statusText">Beérkezett</p>
+                  </div>
+                  <div class="attachment">
+                    <img src="./img/attachment.png" alt="csatolmány" />
+                  </div>
+                  <div class="moreInformation">
+                    <a href="#">
+                      <img src="./img/arrowdown.png" alt="több információ" />
+                    </a>
+                  </div>
+                  <div class="moreInfoBox">
+                    <div class="moreInfoBox__1">
+                      <p>Biztosítási időszak</p>
+                      <p>2019. 06. 02 - 07. 01.</p>
+                    </div>
+                    <div class="moreInfoBox__2">
+                      <p>Díjelőírás</p>
+                      <p>5 000 Ft</p>
+                    </div>
+                    <div class="moreInfoBox__3">
+                      <p>Könyvelt díj</p>
+                      <p class="sum">5 000 Ft</p>
+                    </div>
+                  </div>
+                  <div class="moreInfoBoxAttachment">
+                    <div class="moreInfoBox__1">
+                      <p>Csatolmány</p>
+                      <div class="attachmentBox">
+                        <a href="#">
+                          <img
+                            src="./img/pdf.png"
+                            alt="fizetési nyugta letöltése"
+                          />
+                          <p>Fizetési nyugta letöltése</p>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- DataBox end -->
+                <!-- DataBox -->
+                <div class="paymentDataBox">
+                  <div class="idGroup">
+                    <img
+                      class="idGroupArrow"
+                      src="./img/arrowright.png"
+                      alt="azonosító megjelenítése"
+                    />
+                    <p class="idGroupText">EPAYMT8</p>
+                  </div>
+                  <p>Bankkártya</p>
+                  <p>2019. 06. 25.</p>
+                  <p class="sum">5 000 Ft</p>
+                  <div class="statusGroup">
+                    <img src="./img/sikertelen.png" alt="sikertelen" />
+                    <p class="statusText">Sikertelen</p>
+                  </div>
+                  <div class="attachment">
+                    <img src="./img/attachment.png" alt="csatolmány" />
+                  </div>
+                  <div class="moreInformation">
+                    <a href="#">
+                      <img src="./img/arrowdown.png" alt="több információ" />
+                    </a>
+                  </div>
+                  <div class="moreInfoBox">
+                    <div class="moreInfoBox__1">
+                      <p>Biztosítási időszak</p>
+                      <p>2019. 06. 02 - 07. 01.</p>
+                    </div>
+                    <div class="moreInfoBox__2">
+                      <p>Díjelőírás</p>
+                      <p>5 000 Ft</p>
+                    </div>
+                    <div class="moreInfoBox__3">
+                      <p>Könyvelt díj</p>
+                      <p class="sum">5 000 Ft</p>
+                    </div>
+                  </div>
+                  <div class="moreInfoBoxAttachment">
+                    <div class="moreInfoBox__1">
+                      <p>Csatolmány</p>
+                      <div class="attachmentBox">
+                        <a href="#">
+                          <img
+                            src="./img/pdf.png"
+                            alt="fizetési nyugta letöltése"
+                          />
+                          <p>Fizetési nyugta letöltése</p>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- DataBox end -->
+                <!-- DataBox -->
+                <div class="paymentDataBox">
+                  <div class="idGroup">
+                    <img
+                      class="idGroupArrow"
+                      src="./img/arrowright.png"
+                      alt="azonosító megjelenítése"
+                    />
+                    <p class="idGroupText">EPAYMT8</p>
+                  </div>
+                  <p>Bankkártya</p>
+                  <p>2019. 06. 25.</p>
+                  <p class="sum">5 000 Ft</p>
+                  <div class="statusGroup">
+                    <img src="./img/beerkezett.png" alt="beérkezett" />
+                    <p class="statusText">Beérkezett</p>
+                  </div>
+                  <div class="attachment">
+                    <img src="./img/attachment.png" alt="csatolmány" />
+                  </div>
+                  <div class="moreInformation">
+                    <a href="#">
+                      <img src="./img/arrowdown.png" alt="több információ" />
+                    </a>
+                  </div>
+                  <div class="moreInfoBox">
+                    <div class="moreInfoBox__1">
+                      <p>Biztosítási időszak</p>
+                      <p>2019. 06. 02 - 07. 01.</p>
+                    </div>
+                    <div class="moreInfoBox__2">
+                      <p>Díjelőírás</p>
+                      <p>5 000 Ft</p>
+                    </div>
+                    <div class="moreInfoBox__3">
+                      <p>Könyvelt díj</p>
+                      <p class="sum">5 000 Ft</p>
+                    </div>
+                  </div>
+                  <div class="moreInfoBoxAttachment">
+                    <div class="moreInfoBox__1">
+                      <p>Csatolmány</p>
+                      <div class="attachmentBox">
+                        <a href="#">
+                          <img
+                            src="./img/pdf.png"
+                            alt="fizetési nyugta letöltése"
+                          />
+                          <p>Fizetési nyugta letöltése</p>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- DataBox end -->
+
+                <!-- DataBox Mobile start-->
+                <div class="paymentDataBoxMobile">
+                  <div class="statusDotMobile">
+                    <img src="./img/folyamatban_mobile.png" alt="folyamatban" />
+                  </div>
+                  <div class="miniDetails">
+                    <p class="miniparagraph">Folyamatban</p>
+                    <p class="miniPrice">12 500 Ft</p>
+                    <div class="miniparagraph-attachment firstImgMobile">
+                      <p class="miniparagraph">Fizetési dátum: 2019. 06. 28.</p>
+                      <img src="./img/attachment.png" alt="csatolmány" />
+                    </div>
+                  </div>
+                  <div class="moreInformation-mobile firstImgMobile">
+                    <img
+                      src="./img/arrowdown_mobile.png"
+                      alt="több információ"
+                    />
+                  </div>
+                  <div class="moreInfoBoxMobile activeInfoBoxMobile">
+                    <div class="firstBox">
+                      <div class="subInfo">
+                        <p class="subInfo__Title">Státusz</p>
+                        <p class="subInfo__Data">Folyamatban</p>
+                      </div>
+                      <div class="subInfo">
+                        <p class="subInfo__Title">Azonosító</p>
+                        <p class="subInfo__Data">12345678</p>
+                      </div>
+                      <div class="subInfo">
+                        <p class="subInfo__Title">Hogyan</p>
+                        <p class="subInfo__Data">Bankkártya</p>
+                      </div>
+                    </div>
+                    <div class="secondBox">
+                      <div class="subInfo__Title__second">Csatolmány</div>
+                      <div class="pdfDownload">
+                        <img src="./img/pdf.png" alt="pdf" />
+                        <div class="subInfo__Data">
+                          Fizetési nyugta letöltése
+                        </div>
+                        <img
+                          src="./img/download_arrowdown.png"
+                          alt="letöltés"
+                          class="download_arrowdown"
+                        />
+                      </div>
+                    </div>
+                    <div class="thirdBox">
+                      <div class="subInfo">
+                        <p class="subInfo__Title">Időszak</p>
+                        <p class="subInfo__Data">2019. 11. 20- 2020. 11. 19</p>
+                      </div>
+                      <div class="dij">
+                        <div class="dij__item">
+                          <p class="subInfo__Title">Díjelőírás</p>
+                          <p class="subInfo__Data">5 000 Ft</p>
+                        </div>
+                        <div class="dij__item2">
+                          <p class="subInfo__Title">Könyvelt díj</p>
+                          <p class="subInfo__Data">5 000 Ft</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="fourthBox">
+                      <div class="subInfo">
+                        <p class="subInfo__Title">Időszak</p>
+                        <p class="subInfo__Data">2019. 11. 20- 2020. 11. 19</p>
+                      </div>
+                      <div class="dij">
+                        <div class="dij__item">
+                          <p class="subInfo__Title">Díjelőírás</p>
+                          <p class="subInfo__Data">5 000 Ft</p>
+                        </div>
+                        <div class="dij__item2">
+                          <p class="subInfo__Title">Könyvelt díj</p>
+                          <p class="subInfo__Data">7 500 Ft</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- DataBox Mobile end-->
+                <!-- DataBox Mobile start-->
+                <div class="paymentDataBoxMobile">
+                  <div class="statusDotMobile">
+                    <img src="./img/beerkezett_mobile.png" alt="beérkezett" />
+                  </div>
+                  <div class="miniDetails">
+                    <p class="miniparagraph">Beérkezett</p>
+                    <p class="miniPrice">12 500 Ft</p>
+                    <div class="miniparagraph-attachment">
+                      <p class="miniparagraph">Fizetési dátum: 2019. 06. 28.</p>
+                      <img src="./img/attachment.png" alt="csatolmány" />
+                    </div>
+                  </div>
+                  <div class="moreInformation-mobile">
+                    <img
+                      src="./img/arrowdown_mobile.png"
+                      alt="több információ"
+                    />
+                  </div>
+                  <div class="moreInfoBoxMobile activeInfoBoxMobile">
+                    <div class="firstBox">
+                      <div class="subInfo">
+                        <p class="subInfo__Title">Státusz</p>
+                        <p class="subInfo__Data">Folyamatban</p>
+                      </div>
+                      <div class="subInfo">
+                        <p class="subInfo__Title">Azonosító</p>
+                        <p class="subInfo__Data">12345678</p>
+                      </div>
+                      <div class="subInfo">
+                        <p class="subInfo__Title">Hogyan</p>
+                        <p class="subInfo__Data">Bankkártya</p>
+                      </div>
+                    </div>
+                    <div class="secondBox">
+                      <div class="subInfo__Title__second">Csatolmány</div>
+                      <div class="pdfDownload">
+                        <img src="./img/pdf.png" alt="pdf" />
+                        <div class="subInfo__Data">
+                          Fizetési nyugta letöltése
+                        </div>
+                        <img
+                          src="./img/download_arrowdown.png"
+                          alt="letöltés"
+                          class="download_arrowdown"
+                        />
+                      </div>
+                    </div>
+                    <div class="thirdBox">
+                      <div class="subInfo">
+                        <p class="subInfo__Title">Időszak</p>
+                        <p class="subInfo__Data">2019. 11. 20- 2020. 11. 19</p>
+                      </div>
+                      <div class="dij">
+                        <div class="dij__item">
+                          <p class="subInfo__Title">Díjelőírás</p>
+                          <p class="subInfo__Data">5 000 Ft</p>
+                        </div>
+                        <div class="dij__item2">
+                          <p class="subInfo__Title">Könyvelt díj</p>
+                          <p class="subInfo__Data">5 000 Ft</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="fourthBox">
+                      <div class="subInfo">
+                        <p class="subInfo__Title">Időszak</p>
+                        <p class="subInfo__Data">2019. 11. 20- 2020. 11. 19</p>
+                      </div>
+                      <div class="dij">
+                        <div class="dij__item">
+                          <p class="subInfo__Title">Díjelőírás</p>
+                          <p class="subInfo__Data">5 000 Ft</p>
+                        </div>
+                        <div class="dij__item2">
+                          <p class="subInfo__Title">Könyvelt díj</p>
+                          <p class="subInfo__Data">5 000 Ft</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- DataBox Mobile end-->
+                <!-- DataBox Mobile start-->
+                <div class="paymentDataBoxMobile">
+                  <div class="statusDotMobile">
+                    <img src="./img/beerkezett_mobile.png" alt="beérkezett" />
+                  </div>
+                  <div class="miniDetails">
+                    <p class="miniparagraph">Beérkezett</p>
+                    <p class="miniPrice">12 500 Ft</p>
+                    <div class="miniparagraph-attachment">
+                      <p class="miniparagraph">Fizetési dátum: 2019. 06. 28.</p>
+                      <img src="./img/attachment.png" alt="csatolmány" />
+                    </div>
+                  </div>
+                  <div class="moreInformation-mobile">
+                    <img
+                      src="./img/arrowdown_mobile.png"
+                      alt="több információ"
+                    />
+                  </div>
+                  <div class="moreInfoBoxMobile activeInfoBoxMobile">
+                    <div class="firstBox">
+                      <div class="subInfo">
+                        <p class="subInfo__Title">Státusz</p>
+                        <p class="subInfo__Data">Folyamatban</p>
+                      </div>
+                      <div class="subInfo">
+                        <p class="subInfo__Title">Azonosító</p>
+                        <p class="subInfo__Data">12345678</p>
+                      </div>
+                      <div class="subInfo">
+                        <p class="subInfo__Title">Hogyan</p>
+                        <p class="subInfo__Data">Bankkártya</p>
+                      </div>
+                    </div>
+                    <div class="secondBox">
+                      <div class="subInfo__Title__second">Csatolmány</div>
+                      <div class="pdfDownload">
+                        <img src="./img/pdf.png" alt="pdf" />
+                        <div class="subInfo__Data">
+                          Fizetési nyugta letöltése
+                        </div>
+                        <img
+                          src="./img/download_arrowdown.png"
+                          alt="letöltés"
+                          class="download_arrowdown"
+                        />
+                      </div>
+                    </div>
+                    <div class="thirdBox">
+                      <div class="subInfo">
+                        <p class="subInfo__Title">Időszak</p>
+                        <p class="subInfo__Data">2019. 11. 20- 2020. 11. 19</p>
+                      </div>
+                      <div class="dij">
+                        <div class="dij__item">
+                          <p class="subInfo__Title">Díjelőírás</p>
+                          <p class="subInfo__Data">5 000 Ft</p>
+                        </div>
+                        <div class="dij__item2">
+                          <p class="subInfo__Title">Könyvelt díj</p>
+                          <p class="subInfo__Data">5 000 Ft</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="fourthBox">
+                      <div class="subInfo">
+                        <p class="subInfo__Title">Időszak</p>
+                        <p class="subInfo__Data">2019. 11. 20- 2020. 11. 19</p>
+                      </div>
+                      <div class="dij">
+                        <div class="dij__item">
+                          <p class="subInfo__Title">Díjelőírás</p>
+                          <p class="subInfo__Data">5 000 Ft</p>
+                        </div>
+                        <div class="dij__item2">
+                          <p class="subInfo__Title">Könyvelt díj</p>
+                          <p class="subInfo__Data">7 500 Ft</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- DataBox Mobile end-->
+
+                <!-- Payment DataBox end -->
+              </div>
+              <!-- Payment Head end -->
+            </div>
+
+            <!-- Payment Items end -->
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Main end -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Own JS -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>

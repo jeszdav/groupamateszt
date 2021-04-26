@@ -1,0 +1,78 @@
+/* @import "../bootstrap/scss/bootstrap"; */
+@import "./config";
+@import "./nav";
+@import "./payment";
+@import "./table";
+@import "./responsive";
+
+/* ------ Header ------ */
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  box-shadow: $box-shadow;
+}
+
+.headerBar {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.exit {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 93px;
+  cursor: pointer;
+}
+
+.exitText {
+  color: #0a113d;
+  margin-left: 13px;
+}
+
+/* ------ Main Section ------ */
+
+main {
+  background-color: #fafafc;
+  padding-top: 80px;
+}
+
+.primaryTitle {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f1f2f4;
+}
+
+h1 {
+  color: #283168;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.eletbiztositasBox {
+  padding-top: 10px;
+  background-color: white;
+}
+
+.customer {
+  margin-top: 2rem;
+  &__box {
+    margin-top: 1rem;
+    & p {
+      font-size: 14px;
+      padding: 0;
+      margin: 0;
+    }
+  }
+}

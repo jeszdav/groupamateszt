@@ -1,0 +1,42 @@
+.paymentNav {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  height: 80px;
+  color: #283168;
+  border-bottom: 3px solid #f1f2f4;
+  & a {
+    position: relative;
+    margin-right: 30px;
+    font-size: 14px;
+    &:first-of-type {
+      margin-left: 0;
+    }
+  }
+}
+
+/* ------ Green Navigation Marker start ------ */
+#marker {
+  position: absolute;
+  left: 324px;
+  height: 3px;
+  width: 144px;
+  bottom: -4px;
+  background: #01bba1;
+  border-radius: 2px;
+  transition: 0.5s;
+}
+/* ------ Green Navigation Marker end ------ */
+
+.navItem {
+  letter-spacing: 0.75px;
+}
+
+.mobile {
+  display: none;
+}
+
+.active {
+  font-weight: 600;
+}

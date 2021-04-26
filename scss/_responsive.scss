@@ -1,0 +1,114 @@
+@media screen and (max-width: 1200px) {
+  .paymentDataHead {
+    grid-template-columns: 2.07fr 2fr 2fr 1.5fr 1.7fr 1fr 1fr;
+  }
+
+  .paymentDataBox {
+    grid-template-columns: 2.07fr 2fr 2fr 1.5fr 1.7fr 1fr 1fr;
+  }
+  .moreInfoBox__3 {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: initial;
+  }
+  .paymentDataHead {
+    display: none;
+  }
+
+  .exitGroup {
+    display: flex;
+  }
+
+  .exitDots {
+    display: block;
+    padding: 5px;
+    width: 30px;
+    border-radius: 50%;
+    background: #f1f2f4;
+    text-align: center;
+    margin-right: 15px;
+  }
+
+  .eletbiztositasBox {
+    display: none;
+  }
+
+  #marker {
+    left: 408px;
+    width: 149px;
+  }
+
+  .paymentNav {
+    justify-content: center;
+  }
+
+  .paymentDataBox {
+    display: none;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 102px;
+  }
+  .paymentDataBoxMobile {
+    display: grid;
+
+    align-items: center;
+    background: white;
+    grid-template-rows: 102px;
+    padding-left: 16px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .paymentWrapper {
+    margin: 0 1px;
+  }
+  #marker {
+    left: 317px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #marker {
+    left: 317px;
+  }
+}
+
+@media screen and (max-width: 495px) {
+  .paymentNav {
+    text-align: center;
+  }
+  #marker {
+    left: 292px;
+    width: 142px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  #marker {
+    left: 241px;
+    width: 111px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #marker {
+    left: 217px;
+    width: 96px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #marker {
+    left: 184px;
+    width: 77px;
+  }
+  .paymentNav a {
+    font-size: 12px;
+  }
+}

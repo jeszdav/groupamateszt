@@ -1,0 +1,50 @@
+/* ------ Variables ------ */
+
+$primary-color: #283168;
+$font-color: #3d424c;
+$bg-color: #fafafc;
+$box-shadow: 0px 2px 12px rgba(10, 17, 61, 0.1);
+$box-shadow2: 0px 4px 8px rgba(0, 0, 0, 0.1), 0px 4px 8px rgba(0, 0, 0, 0.1);
+
+/* ------ General settings ------ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.75px;
+  color: #3d424c;
+  position: relative;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+  &:hover {
+    color: $primary-color;
+    text-decoration: none;
+  }
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* ------ General settings  end ------ */
+
+.exitDots {
+  display: none;
+}

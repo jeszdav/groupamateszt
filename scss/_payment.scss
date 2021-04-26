@@ -1,0 +1,275 @@
+/* ------ Payment Wrapper ------ */
+.paymentWrapper {
+  padding-top: 10px;
+  background-color: #fafafc;
+}
+
+/* ------ Payment Header ------ */
+.paymentHeader {
+  margin-bottom: 16px;
+  & a {
+    color: #6f7381;
+    letter-spacing: 0.5px;
+  }
+}
+
+/* ------ Payment Items ------ */
+
+.paymentItemsWrapper {
+  margin-top: 30px;
+}
+
+.paymentDataHead {
+  display: grid;
+  grid-template-columns: 2.07fr 2fr 2fr 1.5fr 1.4fr 1fr 1fr;
+  margin-left: 1.5rem;
+  margin-bottom: 16px;
+  & a {
+    color: #6f7381;
+    letter-spacing: 0.5px;
+  }
+}
+
+.paymentDataBox {
+  display: grid;
+  grid-template-columns: 2.07fr 2fr 2fr 1.5fr 1.4fr 1fr 1fr;
+  grid-template-rows: 79px;
+  align-items: center;
+  padding-left: 1.5rem;
+  margin-top: 16px;
+  background: white;
+  box-shadow: $box-shadow;
+  &:first-of-type {
+    margin-top: 0;
+  }
+}
+
+/* ------ Payment Items end ------ */
+
+/* ------ Mobile settings start ------ */
+.paymentDataBoxMobile {
+  display: none;
+  grid-template-columns: 32px 2fr 1fr;
+  box-shadow: $box-shadow;
+  margin-top: 16px;
+  &:first-of-type {
+    margin-top: 0;
+  }
+}
+
+.miniDetails {
+  list-style: 163.42%;
+}
+
+.miniparagraph {
+  font-size: 12px;
+}
+
+.miniparagraph-attachment {
+  display: flex;
+  align-items: center;
+  & img {
+    margin-left: 8px;
+  }
+}
+
+.miniPrice {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.moreInformation-mobile {
+  justify-self: end;
+  margin-right: 38px;
+  cursor: pointer;
+}
+
+.firstImgMobile {
+  visibility: hidden;
+}
+
+.moreInfoBoxMobile {
+  display: none;
+  grid-column-start: 1;
+  grid-column-end: 8;
+}
+
+.firstBox {
+  height: 177px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-top: 1px solid #f1f2f4;
+}
+
+.secondBox {
+  border-top: 1px solid #f1f2f4;
+  height: 99px;
+}
+
+.thirdBox {
+  display: grid;
+  align-content: center;
+  border-top: 1px solid #f1f2f4;
+  height: 126px;
+}
+
+.fourthBox {
+  display: grid;
+  align-content: center;
+  border-top: 1px solid #f1f2f4;
+  height: 126px;
+}
+
+.dij {
+  display: flex;
+  justify-content: space-between;
+  &__item2 {
+    padding-right: 50px;
+    & .subInfo__Data {
+      font-weight: 600;
+    }
+  }
+}
+
+.pdfDownload {
+  display: grid;
+  grid-template-columns: 32px 2fr 1fr;
+  align-items: center;
+}
+
+.download_arrowdown {
+  justify-self: end;
+  margin-right: 38px;
+  cursor: pointer;
+}
+
+.subInfo {
+  &__Title {
+    font-size: 12px;
+    &__second {
+      font-size: 12px;
+      margin-top: 12px;
+      margin-bottom: 12px;
+    }
+  }
+  &__Data {
+    font-size: 14px;
+  }
+}
+/* ------ Mobile settings end ------ */
+
+/* ------ Payment area column settings start ------ */
+.statusGroup {
+  display: flex;
+  align-items: center;
+}
+
+.statusText {
+  margin-left: 8px;
+}
+
+.attachment {
+  text-align: center;
+}
+
+.sum {
+  font-weight: 600;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+/* ------ Payment area column settings start ------ */
+
+/* ------ More InfoBox ------ */
+
+.moreInfoBox {
+  border-top: 1px solid #f1f2f4;
+  grid-column-start: 1;
+  grid-column-end: 8;
+  display: none;
+  grid-template-columns: 2fr 2fr 1.8fr 1.5fr 1.12fr 1fr 1fr;
+  grid-template-rows: 91px;
+  align-items: center;
+  margin-left: -1.5rem;
+}
+
+.moreInfoBox__1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  padding-left: 33px;
+  & p {
+    margin-bottom: 7px;
+  }
+}
+
+.moreInfoBox__2 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  padding-left: 5px;
+  & p {
+    margin-bottom: 7px;
+  }
+}
+
+.moreInfoBox__3 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  padding-left: 8px;
+  & p {
+    margin-bottom: 7px;
+  }
+}
+
+/* ------ More InfoBox PDF download ------ */
+
+.moreInfoBoxAttachment {
+  border-top: 1px solid #f1f2f4;
+  grid-column-start: 1;
+  grid-column-end: 8;
+  display: none;
+  grid-template-columns: 2fr 2fr 1.8fr 1.5fr 1.12fr 1fr 1fr;
+  grid-template-rows: 91px;
+  align-items: center;
+  margin-left: -1.5rem;
+}
+
+.attachmentBox a {
+  display: flex;
+  align-items: center;
+  & p {
+    margin: 0 0 0 16px;
+  }
+}
+
+.activeInfoBox {
+  display: grid;
+}
+
+/* .accordionClick {
+  cursor: pointer;
+} */
+
+.idGroup {
+  & img {
+    vertical-align: initial;
+  }
+}
+
+.idGroupArrow {
+  cursor: pointer;
+}
+
+.idGroupText {
+  display: inline-block;
+}
+
+.idFull {
+  display: none;
+}
+
+.activeId {
+  display: block;
+}
